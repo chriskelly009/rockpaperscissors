@@ -3,17 +3,17 @@ function playRound(playerSelection, computerSelection) {
     // Compare each assigned number to its corresponding
     // selection (rock, paper, scissors)
     if (playerSelection === 1 && computerSelection === 2) {
-        console.log("computer wins");
+        console.log("You lose! Paper beats Rock!");
     }else if (playerSelection === 1 && computerSelection === 3) {
-        console.log("player wins");
+        console.log("You win! Rock beats scissors!");
     }else if (playerSelection === 2 && computerSelection === 1) {
-        console.log("player wins");
+        console.log("You win! Paper beats rock!");
     }else if (playerSelection === 2 && computerSelection === 3) {
-        console.log("computer wins");
+        console.log("You lose! Scissors beat paper!");
     }else if (playerSelection === 3 && computerSelection === 1) {
-        console.log("computer wins");
+        console.log("You lose! Rock beats scissors!");
     }else if (playerSelection === 3 && computerSelection === 2) {
-        console.log("player wins");
+        console.log("You lose! Scissors beats paper!");
     }else if (playerSelection === 4) {
         console.log("Please enter a valid choice");
     } else {
